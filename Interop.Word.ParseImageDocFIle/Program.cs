@@ -28,7 +28,7 @@ namespace WordAutomation
             {
                 if (Directory.Exists(folderPath))                                                                                           // Check if folder exists
                 {
-                    string[] files = Directory.GetFiles(folderPath, "*.doc");                                                               // Get all .doc files in the folder
+                    string[] files = Directory.GetFiles(folderPath, "*.doc*");                                                               // Get all .doc files in the folder
                     foreach (string filePath in files)
                     {
                         ProcessDocument(filePath);                                                                                          // Call ProcessDocument to process each .doc file
