@@ -29,5 +29,5 @@ The program performs the following tasks:
 
 ## Important Note
 
-- The program may not pick up some images if the "Warp Text" format of the image is not set to "In line with Text" in the original Word document. If you need to replace images with a different format. I recommend using Spire.doc.
+- The program may not pick up some images if the "Warp Text" format of the image is not set to "In line with Text" in the original Word document. If you need to replace images with a different format. I recommend using Spire.doc library.
 
